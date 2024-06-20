@@ -1,0 +1,393 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('vazir-font-v16.1.0/Vazir-Bold.woff2') format('woff2'),
+         url('vazir-font-v16.1.0/Vazir-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Vazir';
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-section,
+.center-section,
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.header-top .telegram img,
+.header-top .email img {
+    font-family: 'Vazir';
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.header-top .telegram img:hover,
+.header-top .email img:hover {
+    transform: scale(1.1);
+}
+
+.header {
+    background-color: #fefafad4;
+    padding: 1px;
+    direction: rtl;
+    text-align: right;
+    font-size: xx-large;
+    
+}
+
+.header .categories {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .categories li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.header .categories li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.header .categories li a:hover {
+    color: #ff0000;
+    font-size: larger;
+}
+
+.advertisement {
+    background-color: #e6dadaa5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(255, 221, 221, 0.432);
+    width: 50rem;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Vazir';
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-section, .center-section, .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section {
+    margin-left: 20px;
+}
+
+.right-section {
+    margin-right: 20px;
+}
+
+.logo img, .telegram img, .email img {
+    max-width: 100%;
+    height: auto;
+}
+
+.advertisement {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.the-fall-guy-nagd {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.the-fall-guy-nagd-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.the-fall-guy-nagd-header img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.onvan-film {
+    text-align: center;
+    direction: rtl;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.onvan-film-mozoo {
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.onvan-film-name {
+    color: black;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.onvan-film-name2 {
+    color: #121212;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin: 20px;
+    direction: rtl;
+    flex-wrap: wrap;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+}
+
+.info p {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.info img {
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    direction: rtl;
+    width: 100%;
+    padding: 1rem;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content {
+    color: #454545;
+    font-size: 19px;
+    width: 100%;
+    max-width: 900px;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.content strong {
+    display: block;
+    margin-top: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.image-container img {
+    margin: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        width: 90%;
+    }
+
+    .the-fall-guy-nagd-header img {
+        max-width: 100%;
+    }
+
+    .onvan-film-mozoo,
+    .onvan-film-name,
+    .onvan-film-name2 {
+        margin-right: 0;
+    }
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.left-div {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    background-image: url('https://vigiato.net/wp-content/uploads/2024/04/5C3UcPKVcg3rwGBYPE18wXpZMw8-910x600.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.left-div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.left-div-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.left-div-content h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #00bd00;
+    display: inline-block;
+}
+
+.right-div {
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#00bd00 0%, #ffffff 0%, #ffffff 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.right-div:hover {
+    transform: scale(1.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.right-div::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background: radial-gradient(circle, rgba(135, 206, 235, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    border-radius: 50%;
+}
+
+.right-div-content {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.score-number {
+    font-size: 4rem;
+    margin: 0;
+    color: #00bd00;
+    font-weight: bold;
+    animation: glow 1.5s infinite;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #00bd00, 0 0 20px #00bd00, 0 0 30px #00bd00, 0 0 40px #00bd00, 0 0 50px #00bd00, 0 0 60px #00bd00, 0 0 70px #00bd00;
+    }
+
+    100% {
+        text-shadow: 0 0 20px #00bd00, 0 0 30px #00bd00, 0 0 40px #00bd00, 0 0 50px #00bd00, 0 0 60px #00bd00, 0 0 70px #00bd00, 0 0 80px #00bd00;
+    }
+}
+
+.right-div-score {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.right-div-naghd {
+    margin-right: 40px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
